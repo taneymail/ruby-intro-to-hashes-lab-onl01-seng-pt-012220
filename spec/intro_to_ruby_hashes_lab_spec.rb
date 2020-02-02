@@ -14,8 +14,8 @@ describe "working with hashes" do
 
   describe "instantiating a hash with ONE key-value pair" do
     describe "#actor" do
-      it "creates a hash named actor whose key is a symbol :name and whose value is a string, 'Dwayne The Rock Johnson'" do
-        expect(actor[:name]).to eq("Dwayne The Rock Johnson")
+      it "creates a hash named actor whose key is a symbol :name and whose value is a string, 'Tom Hanks'" do
+        expect(actor[:name]).to eq("Tom Hanks")
       end
     end
   end
